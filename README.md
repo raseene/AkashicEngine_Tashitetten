@@ -1,6 +1,6 @@
 # 足し算パズル「たしてっ10(テン)」
 
-ニコ生ゲーム対応のパズルゲーム( https://commons.nicovideo.jp/works/lg12618 )です。
+ニコ生ゲーム対応のパズルゲーム( https://commons.nicovideo.jp/works/lg12618 )です。  
 Akashic Engine( https://akashic-games.github.io/tutorial/v3/ )で制作されています。
 
 ![Screenshot](./images/screen10.png)
@@ -16,7 +16,7 @@ npm install
 npm run build
 ```
 
-次のコマンドで akashic-sandbox が起動されます。
+次のコマンドで akashic-sandbox が起動されます。  
 起動後、ブラウザで `http://localhost:3000/` にアクセスすることでゲームを実行できます。
 
 ```sh
@@ -32,8 +32,8 @@ npm start
 
 次の方々の素材を基にしたアセットについては、それぞれのリンク先のライセンスをご確認ください。
 
-GOROU さん (https://commons.nicovideo.jp/works/nc297111)
-ふぉんときゅーとがーる さん (https://font.cutegirl.jp/chalk-s.html)
-にゃっき♭ さん (https://commons.nicovideo.jp/works/nc262131)
+GOROU さん (https://commons.nicovideo.jp/works/nc297111)  
+ふぉんときゅーとがーる さん (https://font.cutegirl.jp/chalk-s.html)  
+にゃっき♭ さん (https://commons.nicovideo.jp/works/nc262131)  
 G-MIYA さん (https://commons.nicovideo.jp/works/nc129782)
 
