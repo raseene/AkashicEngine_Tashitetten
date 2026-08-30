@@ -1,0 +1,214 @@
+{
+	"width": 1024,
+	"height": 576,
+	"fps": 30,
+	"maxPoints": 1,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"index": {
+			"type": "script",
+			"path": "script/sys/index.js",
+			"global": true
+		},
+		"System": {
+			"type": "script",
+			"path": "script/sys/System.js",
+			"global": true
+		},
+		"Audio": {
+			"type": "script",
+			"path": "script/sys/Audio.js",
+			"global": true
+		},
+		"Scene": {
+			"type": "script",
+			"path": "script/sys/Scene.js",
+			"global": true
+		},
+		"SceneGame": {
+			"type": "script",
+			"path": "script/Game/SceneGame.js",
+			"global": true
+		},
+		"Panel": {
+			"type": "script",
+			"path": "script/Game/Panel.js",
+			"global": true
+		},
+		"NumSprite": {
+			"type": "script",
+			"path": "script/Game/NumSprite.js",
+			"global": true
+		},
+		"assets/image/back.jpg": {
+			"type": "image",
+			"path": "assets/image/back.jpg",
+			"width": 1024,
+			"height": 576
+		},
+		"assets/image/parts.png": {
+			"type": "image",
+			"path": "assets/image/parts.png",
+			"width": 416,
+			"height": 256
+		},
+		"assets/image/frame.png": {
+			"type": "image",
+			"path": "assets/image/frame.png",
+			"width": 392,
+			"height": 392
+		},
+		"assets/image/message.png": {
+			"type": "image",
+			"path": "assets/image/message.png",
+			"width": 560,
+			"height": 360
+		},
+		"assets/image/information.png": {
+			"type": "image",
+			"path": "assets/image/information.png",
+			"width": 886,
+			"height": 436
+		},
+		"assets/audio/bgm_game": {
+			"type": "audio",
+			"path": "assets/audio/bgm_game",
+			"systemId": "sound",
+			"duration": 61946,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_click": {
+			"type": "audio",
+			"path": "assets/audio/se_click",
+			"systemId": "sound",
+			"duration": 21,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_count": {
+			"type": "audio",
+			"path": "assets/audio/se_count",
+			"systemId": "sound",
+			"duration": 681,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_match": {
+			"type": "audio",
+			"path": "assets/audio/se_match",
+			"systemId": "sound",
+			"duration": 190,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_miss": {
+			"type": "audio",
+			"path": "assets/audio/se_miss",
+			"systemId": "sound",
+			"duration": 706,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_select": {
+			"type": "audio",
+			"path": "assets/audio/se_select",
+			"systemId": "sound",
+			"duration": 173,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_chaim": {
+			"type": "audio",
+			"path": "assets/audio/se_chaim",
+			"systemId": "sound",
+			"duration": 10337,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"assets/audio/se_replace": {
+			"type": "audio",
+			"path": "assets/audio/se_replace",
+			"systemId": "sound",
+			"duration": 773,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 78
+			}
+		},
+		"external": {
+			"instanceStorageLimited": "0"
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/instance-storage/lib/impl/EmptyInstanceStoragePlugin.js",
+		"node_modules/@akashic-extension/instance-storage/lib/impl/InstanceStorage.js",
+		"node_modules/@akashic-extension/instance-storage/lib/impl/create.js",
+		"node_modules/@akashic-extension/instance-storage/lib/impl/index.js",
+		"node_modules/@akashic-extension/instance-storage/lib/impl/promisify.js",
+		"node_modules/@akashic-extension/instance-storage/lib/index.js",
+		"node_modules/@akashic-extension/instance-storage/lib/types/InstanceStorageLike.js",
+		"node_modules/@akashic-extension/instance-storage/lib/types/InstanceStorageLimitedPluginLike.js",
+		"node_modules/@akashic-extension/instance-storage/lib/types/PromisifiedInstanceStorageLike.js",
+		"node_modules/@akashic-extension/instance-storage/lib/types/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/instance-storage": "node_modules/@akashic-extension/instance-storage/lib/index.js"
+	}
+}
